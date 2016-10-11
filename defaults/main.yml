@@ -12,4 +12,4 @@ lib_persistent_data_path_remote: "{{ util_persistent_data_path_remote|default('/
 
 lib_module_get_url_timeout: "{{ util_module_get_url_timeout|default(10) }}"
 
-lib_roles_path: "{{ playbook_dir }}/roles"
+lib_roles_path: "/etc/ansible/roles"
